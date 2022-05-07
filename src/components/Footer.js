@@ -1,6 +1,8 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
+import data from "../data"
+
 const Footer = () => {
   return (
     <div className="section" id="contact">
@@ -8,11 +10,33 @@ const Footer = () => {
         <div className="footer-container">
           <Fade bottom cascade>
             <h2>Contact</h2>
-            <h3>Let's make cool things together!</h3>
+            <p>Let's make cool things together!</p>
           </Fade>
-          <a className="email-link" href="mailto:hayleypelham@ownmail.net">
-            hayleypelham@ownmail.net
+          <a
+            href="mailto:hayleypelham@ownmail.net"
+            className="primary-btn"
+          >
+            GET IN TOUCH
           </a>
+          <div className="social-icons">
+            {data.social.map((socialLink, index) => (
+              <a
+                key={index}
+                href={socialLink.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={socialLink.img} alt="icons"></img>
+              </a>
+            ))}
+          </div>
+          <span>
+            Adapted from{" "}
+            <a target="_blank" href="https://react-portfolio-template.netlify.app/">
+            Chetan Verma
+            </a>
+          {" "}with <span className="icon">❤</span> by Hayley Pelham
+          </span>
         </div>
       </div>
     </div>

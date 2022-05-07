@@ -17,7 +17,7 @@ const About = () =>{
             </p>
             <p>
               I like creating beautiful websites and making processes more efficient
-              with automation &mdash; and get to combine both of these pursuits every day
+              with automation &mdash; and get to combine both of these pursuits everyday
               in my work doing web development and operations.
             </p>
           </div>

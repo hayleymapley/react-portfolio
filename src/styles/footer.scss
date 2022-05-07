@@ -9,7 +9,7 @@
     font-size: 3rem;
     line-height: 20px;
   }
-  h3 {
+  p {
     font-size: 1.5rem;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
@@ -36,7 +36,8 @@
   span {
     margin-top: 10px;
   }
-  icon {
+  .icon {
+    margin-top: 20px;
     color: red;
   }
 }
