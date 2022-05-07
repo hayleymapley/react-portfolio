@@ -32,7 +32,11 @@ const Footer = () => {
           </div>
           <span>
             Adapted from{" "}
-            <a target="_blank" href="https://react-portfolio-template.netlify.app/">
+            <a
+	            target="_blank" 
+              href="https://react-portfolio-template.netlify.app/"
+              rel="noopener noreferrer"
+            >
             Chetan Verma
             </a>
           {" "}with <span className="icon">❤</span> by Hayley Pelham
