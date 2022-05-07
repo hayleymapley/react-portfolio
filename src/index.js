@@ -8,7 +8,7 @@ import './styles/index.scss';
 // Components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-//import Work from "./components/Work"
+import Work from "./components/Work"
 import About from "./components/About"
 //import Skills from "./components/skills"
 //import Promotion from "./components/Promotion"
@@ -20,14 +20,12 @@ root.render(
     <Navbar />
     <Header />
     <About />
+    <Work />
     <Footer />
   </>
 );
 
 //<SEO title="Portfolio Template" />
 
-//<Work></Work>
-//<About></About>
 //<Skills></Skills>
 //<Promotion></Promotion>
-//<Footer></Footer>

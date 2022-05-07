@@ -2,13 +2,11 @@
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
-// Atoms
-//@import "./card.scss";
-
 // Components
 @import "./navbar.scss";
 @import "./header.scss";
-//@import "./work.scss";
+@import "./work.scss";
+@import "./card.scss";
 @import "./about.scss";
 //@import "./skills.scss";
 //@import "./promotion.scss";

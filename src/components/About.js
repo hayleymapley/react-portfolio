@@ -14,14 +14,11 @@ const About = () =>{
               Currently, I work as a developer and infrastructure lead for an{" "}
               <a href="https://www.catalyst.net.nz/about-us">open-source software
               solutions company</a>.
-              <br></br>
-              <br></br>
+            </p>
+            <p>
               I like creating beautiful websites and making processes more efficient
               with automation &mdash; and get to combine both of these pursuits every day
               in my work doing web development and operations.
-              <br></br>
-              <br></br>
-              One paragraph
             </p>
           </div>
           <div className="image-wrapper">

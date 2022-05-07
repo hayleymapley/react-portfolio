@@ -8,8 +8,16 @@
     font-weight: 600;
   }
   .links-wrapper {
-    button {
+    ul {
+      list-style-type: none;
+    }
+    li {
+      display:inline;
+    }
+    a {
+      display: inline-block;
       text-decoration: none;
+      color: #333;
       padding: 10px;
       font-family: "Open Sans";
       opacity: 0.6;
