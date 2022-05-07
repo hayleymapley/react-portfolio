@@ -6,37 +6,32 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>
+            <h1>
               Hey, I'm Hayley Pelham{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
-            </h2>
+            </h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>
+              <p>
                 I love creating things,
-              </h1>
-              <h1>
+              </p>
+              <p>
                 improving processes,
-              </h1>
-              <h1>
+              </p>
+              <p>
                 and making an impact
-              </h1>
+              </p>
             </div>
           </Fade>
-          <Fade bottom>
-            <p>This paragraph could have something in it</p>
-          </Fade>
-          <Fade bottom>
             <a
               href="mailto:hayleypelham@ownmail.net"
               className="primary-btn"
             >
               CONNECT WITH ME
             </a>
-          </Fade>
         </div>
       </div>
     </div>

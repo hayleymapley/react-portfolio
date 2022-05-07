@@ -25,16 +25,17 @@
       width: 100%;
     }
 
-    h1 {
+    h2 {
       font-size: 3rem;
       line-height: 20px;
+      margin-top: 10vh;
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        text-align: left;
       }
     }
     p {
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        text-align: left;
       }
     }
   }

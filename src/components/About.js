@@ -8,20 +8,25 @@ const About = () =>{
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h2>About</h2>
             </Fade>
             <p>
-              One paragraph
+              Currently, I work as a developer and infrastructure lead for an{" "}
+              <a href="https://www.catalyst.net.nz/about-us">open-source software
+              solutions company</a>.
               <br></br>
               <br></br>
-              One paragraph
+              I like creating beautiful websites and making processes more efficient
+              with automation &mdash; and get to combine both of these pursuits every day
+              in my work doing web development and operations.
               <br></br>
               <br></br>
               One paragraph
             </p>
           </div>
           <div className="image-wrapper">
-            <img src="https://avatars.githubusercontent.com/u/40159686?v=4" alt="about"></img>
+            <img src="https://avatars.githubusercontent.com/u/40159686?v=4"
+              alt="Hayley smiling wearing a black blazer"></img>
           </div>
         </div>
       </div>

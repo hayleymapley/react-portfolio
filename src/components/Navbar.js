@@ -1,5 +1,5 @@
 import React from "react"
-import scrollTo from "react-scroll-to"
+import ScrollTo from "react-scroll-to"
 
 const Navbar = () => {
   return (
@@ -8,15 +8,15 @@ const Navbar = () => {
         <div className="navbar-wrapper">
           <div
             role="button"
-            onClick={() => scrollTo("#home")}
+            onClick={() => ScrollTo({id: "#home"})}
             className="name"
             tabIndex={0}
           >
             Portfolio.
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => ScrollTo({id: "#about"})}>About</button>
+            <button onClick={() => ScrollTo({id: "#contact"})}>Contact</button>
           </div>
         </div>
       </div>

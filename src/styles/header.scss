@@ -5,9 +5,10 @@
   flex-direction: column;
   align-items: center;
 
-  h2 {
+  h1 {
     font-size: 1rem;
     text-align: center;
+    text-transform: uppercase;
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
     }
@@ -19,7 +20,7 @@
     }
   }
   .heading-wrapper {
-    h1 {
+    p {
       font-size: 4rem;
       text-align: center;
       line-height: 20px;
@@ -36,7 +37,7 @@
       }
     }
   }
-  p {
+  /*p {
     width: 50%;
     text-align: center;
     overflow: hidden;
@@ -52,5 +53,5 @@
       font-size: 14px;
       width: 100%;
     }
-  }
+  }*/
 }
