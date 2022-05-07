@@ -33,13 +33,13 @@ const Footer = () => {
           <span>
             Adapted from{" "}
             <a
-	            target="_blank" 
+	            target="_blank"
               href="https://react-portfolio-template.netlify.app/"
               rel="noopener noreferrer"
             >
             Chetan Verma
             </a>
-          {" "}with <span className="icon">❤</span> by Hayley Pelham
+          {" "}with <span className="icon" alt="heart">❤</span> by Hayley Pelham
           </span>
         </div>
       </div>
