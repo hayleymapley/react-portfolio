@@ -15,6 +15,7 @@ const Footer = () => {
           <a
             href="mailto:hayleypelham@ownmail.net"
             className="primary-btn"
+            aria-label="Open a new draft addressed to me in your default email client"
           >
             GET IN TOUCH
           </a>
@@ -26,20 +27,21 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={socialLink.img} alt="icons"></img>
+                <img src={socialLink.img} alt={socialLink.description}></img>
               </a>
             ))}
           </div>
-          <span>
+          <span className="credit">
             Adapted from{" "}
             <a
 	            target="_blank"
               href="https://react-portfolio-template.netlify.app/"
               rel="noopener noreferrer"
+              aria-label="React portfolio template by Chetan Verma"
             >
             Chetan Verma
             </a>
-          {" "}with <span className="icon" alt="heart">❤</span> by Hayley Pelham
+          {" "}with <span className="icon" role="img" aria-label="Heart">❤</span> by Hayley Pelham
           </span>
         </div>
       </div>

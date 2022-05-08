@@ -32,11 +32,13 @@ const projects = [
 const social = [
   {
     img: githubIcon,
-    url: "https://github.com/hayleypelham"
+    url: "https://github.com/hayleypelham",
+    description: "GitHub",
   },
   {
     img: linkedinIcon,
-    url: "https://www.linkedin.com/in/hayleypelham/"
+    url: "https://www.linkedin.com/in/hayleypelham/",
+    description: "LinkedIn",
   },
 ]
 

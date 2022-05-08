@@ -8,7 +8,7 @@ const Header = () => {
           <Fade bottom>
             <h1>
               Hey, I'm Hayley Pelham{" "}
-              <span role="img" aria-label="Emoji">
+              <span role="img" aria-label="Wave emoji">
                 👋
               </span>
             </h1>
@@ -29,6 +29,7 @@ const Header = () => {
             <a
               href="mailto:hayleypelham@ownmail.net"
               className="primary-btn"
+              aria-label="Open a new draft addressed to me in your default email client"
             >
               CONNECT WITH ME
             </a>

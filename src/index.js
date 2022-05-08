@@ -18,10 +18,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Navbar />
-    <Header />
-    <About />
-    <Work />
-    <Footer />
+    <div role="main">
+      <Header />
+      <About />
+      <Work />
+      <Footer />
+    </div>
   </>
 );
 
