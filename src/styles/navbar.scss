@@ -17,10 +17,11 @@
     a {
       display: inline-block;
       text-decoration: none;
-      color: #333;
+      color: #595959;
+      font-weight: bold;
       padding: 10px;
       font-family: "Open Sans";
-      opacity: 0.6;
+      //opacity: 0.6;
       transition: all 0.2s ease-in-out;
       font-size: 12px;
       background-color: transparent;
@@ -29,6 +30,7 @@
       cursor: pointer;
       &:hover {
         opacity: 1;
+        color: black;
       }
     }
     .active {
