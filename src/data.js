@@ -4,7 +4,7 @@ import linkedinIcon from "./images/linkedin.svg"
 
 const projects = [
   {
-    title: "Coming soon",
+    title: "Coming soon 1",
     para:
       "Exciting project coming soon",
     imageSrc:
@@ -12,7 +12,7 @@ const projects = [
     url: "#",
   },
   {
-    title: "Coming soon",
+    title: "Coming soon 2",
     para:
       "Exciting project coming soon",
     imageSrc:
@@ -20,7 +20,7 @@ const projects = [
     url: "#",
   },
   {
-    title: "Coming soon",
+    title: "Coming soon 3",
     para:
       "Exciting project coming soon",
     imageSrc:

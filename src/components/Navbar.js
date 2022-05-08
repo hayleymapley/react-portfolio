@@ -1,5 +1,9 @@
 import React from "react"
 import ScrollTo from "react-scroll-to"
+import Scroll from "react-scroll"
+
+var Element = Scroll.Element;
+var scroller = Scroll.scroller;
 
 const Navbar = () => {
   return (
@@ -8,7 +12,13 @@ const Navbar = () => {
         <div className="navbar-wrapper">
           <div
             role="button"
-            onClick={() => ScrollTo({id: "#home"})}
+            onClick={scroller.scrollTo('about', {
+              duration: 1500,
+              delay: 100,
+              smooth: true,
+              containerId: 'about',
+              offset: 50, // Scrolls to element + 50 pixels down the page
+            })}
             className="name"
             tabIndex={0}
           >
