@@ -4,12 +4,12 @@ import linkedinIcon from "./images/linkedin.svg"
 
 const projects = [
   {
-    title: "Coming soon 1",
+    title: "Koha ILS",
     para:
-      "Exciting project coming soon",
+      "Koha, an open-source library system. This has been the project I've been contributing to, supporting, and maintaining since 2019 with Catalyst IT",
     imageSrc:
-      "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
-    url: "#",
+      "https://koha-community.org/files/2019/01/koha-community-devices.png",
+    url: "https://demo.mykoha.co.nz/",
   },
   {
     title: "Coming soon 2",
