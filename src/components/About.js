@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import avatar from "../images/avataaars.svg"
 
 const About = () =>{
   return (
@@ -22,8 +23,8 @@ const About = () =>{
             </p>
           </div>
           <div className="image-wrapper">
-            <img src="https://avatars.githubusercontent.com/u/40159686?v=4"
-              alt="Hayley smiling wearing a black blazer"></img>
+            <img src={avatar}
+              alt="Cartoon Hayley smiling and wearing a black t-shirt"></img>
           </div>
         </div>
       </div>
