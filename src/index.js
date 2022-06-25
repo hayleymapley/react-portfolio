@@ -8,7 +8,7 @@ import './styles/index.scss';
 // Components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Work from "./components/Work"
+import Skills from "./components/Skills"
 import About from "./components/About"
 //import Skills from "./components/skills"
 //import Promotion from "./components/Promotion"
@@ -21,7 +21,7 @@ root.render(
     <div role="main">
       <Header />
       <About />
-      <Work />
+      <Skills />
       <Footer />
     </div>
   </>
