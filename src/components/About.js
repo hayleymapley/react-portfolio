@@ -14,7 +14,7 @@ const About = () =>{
             <p>
               Currently, I work as a <strong>full-stack developer</strong> and{" "}
               <strong>infrastructure and tools lead</strong> for an{" "}
-              <a href="https://www.catalyst.net.nz/about-us">open-source software
+              <a href="https://www.catalyst.net.nz/">open-source software
               solutions company</a>.
             </p>
             <p>
