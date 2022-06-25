@@ -1,5 +1,5 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 import avatar from "../images/avataaars.svg"
 
 const About = () =>{
@@ -8,7 +8,7 @@ const About = () =>{
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
+            <Fade cascade>
               <h2>About</h2>
             </Fade>
             <p>
@@ -24,7 +24,7 @@ const About = () =>{
             <p>
               I'm super passionate about personal and professional <strong>growth</strong>,
               creating <strong>beautiful websites</strong>, and making processes more
-              efficient with <strong>automation</strong> &mdash. My values are important
+              efficient with <strong>automation</strong> &mdash;. My values are important
               to me, and my dream is to be able to combine each of these pursuits everyday in
               work that aligns with those values.
             </p>

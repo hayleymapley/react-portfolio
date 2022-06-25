@@ -1,11 +1,11 @@
-import Fade from 'react-reveal/Fade'
+import Fade from "react-awesome-reveal"
 
 const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          <Fade>
             <h1>
               Hey, I'm Hayley Pelham{" "}
               <span role="img" aria-label="Wave emoji">
@@ -13,7 +13,7 @@ const Header = () => {
               </span>
             </h1>
           </Fade>
-          <Fade bottom cascade>
+          <Fade>
             <div className="heading-wrapper">
               <p>
                 I love creating things,

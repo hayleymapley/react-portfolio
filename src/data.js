@@ -6,17 +6,17 @@ const skills = [
   {
     title: "Communication and collaboration",
     para:
-      "Open and honest communication is key for effective collaboration. I believe that when working with the right people, collaboration is one of the most rewarding aspects of any job. I pride myself on a strong eye for detail, which means that written communication and documentation is one of my strong suits.",
+      "Open and honest communication is key for effective collaboration. When working with the right people, collaboration is one of the most rewarding aspects of any job. He tangata!",
   },
   {
     title: "Full-stack development",
     para:
-      "Supporting, maintaining, and enhancing software is my jam, and I have a wide range of modern and not-so-modern technological familiarities. The front-end essentials are my bread-and-(plant-based)-butter, and I have strong skills with a modified LAMP stack in the back-end to balance it out. I'm also pretty comfortable with MVC front-end frameworks.",
+      "Supporting, maintaining, and enhancing software from front-end to back-end is my jam. I solve problems using a wide range of modern and not-so-modern technological familiarities.",
   },
   {
     title: "Automation and infrastructure",
     para:
-      "I love making things easier on everybody with automation, and am experienced in automating processes with Ansible, Gitlab CI/CD, and the more basic cronjobs and bash/Python scripts. I'm used to managing cloud infrastructure using both web interfaces and APIs, and have also dabbled with some operations work, managing monitoring.",
+      "I love making things easier on everybody with automation. If I can automate a task with Ansible, or a deploy process with Gitlab CI/CD, you best believe that I will!",
   },
 ]
 

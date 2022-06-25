@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "./Card"
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 
 import data from "../data"
 
@@ -9,11 +9,12 @@ const Skills = () => {
     <div className="section" id="skills">
       <div className="container">
         <div className="skills-wrapper">
-          <Fade bottom cascade>
+          <Fade down cascade>
             <h2>Skills</h2>
           </Fade>
           <div className="grid">
             {data.skills.map((skill, index) => (
+
               <Card
                 key={index}
                 heading={skill.title}
