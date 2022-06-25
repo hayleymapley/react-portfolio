@@ -35,9 +35,9 @@
       }
     }
     p {
-      text-align: justify;
+      text-align: left;
       @include media(">=tablet", "<desktop") {
-        text-align: justify;
+        text-align: left;
       }
     }
   }

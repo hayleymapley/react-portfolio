@@ -12,14 +12,20 @@ const About = () =>{
               <h2>About</h2>
             </Fade>
             <p>
-              Currently, I work as a developer and infrastructure lead for an{" "}
+              Currently, I work as a <strong>full-stack developer</strong> and{" "}
+              <strong>infrastructure and tools lead</strong> for an{" "}
               <a href="https://www.catalyst.net.nz/about-us">open-source software
               solutions company</a>.
             </p>
             <p>
-              I like creating beautiful websites and making processes more efficient
-              with automation &mdash; and get to combine both of these pursuits everyday
-              in my work doing web development and operations.
+              I love <strong>collaborating with cool people</strong> and making{" "}
+              a <strong>positive impact</strong>.
+            </p>
+            <p>
+              I'm super passionate about personal and professional <strong>growth</strong>,
+              creating <strong>beautiful websites</strong>, and making processes more
+              efficient with <strong>automation</strong> &mdash; and my dream is to be able to
+              combine each of these pursuits everyday in my work.
             </p>
           </div>
           <div className="image-wrapper">

@@ -2,30 +2,21 @@
 import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
-const projects = [
+const skills = [
   {
-    title: "Koha ILS",
+    title: "Communication and collaboration",
     para:
-      "Koha, an open-source library system. This has been the project I've been contributing to, supporting, and maintaining since 2019 with Catalyst IT",
-    imageSrc:
-      "https://koha-community.org/files/2019/01/koha-community-devices.png",
-    url: "https://demo.mykoha.co.nz/",
+      "Open and honest communication is key for effective collaboration. I believe that when working with the right people, collaboration is one of the most rewarding aspects of any job. I pride myself on a strong eye for detail, which means that written communication and documentation is one of my strong suits.",
   },
   {
-    title: "Coming soon 2",
+    title: "Full-stack development",
     para:
-      "Exciting project coming soon",
-    imageSrc:
-      "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    url: "#",
+      "Supporting, maintaining, and enhancing software is my jam, and I have a wide range of modern and not-so-modern technological familiarities. The front-end essentials are my bread-and-(plant-based)-butter, and I have strong skills with a modified LAMP stack in the back-end to balance it out. I'm also pretty comfortable with MVC front-end frameworks.",
   },
   {
-    title: "Coming soon 3",
+    title: "Automation and infrastructure",
     para:
-      "Exciting project coming soon",
-    imageSrc:
-      "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-    url: "#",
+      "I love making things easier on everybody with automation, and am experienced in automating processes with Ansible, Gitlab CI/CD, and the more basic cronjobs and bash/Python scripts. I'm used to managing cloud infrastructure using both web interfaces and APIs, and have also dabbled with some operations work, managing monitoring.",
   },
 ]
 
@@ -43,7 +34,7 @@ const social = [
 ]
 
 const Data = {
-  projects,
+  skills,
   social,
 }
 
