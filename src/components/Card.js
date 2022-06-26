@@ -8,7 +8,6 @@ const Card = ({ icon, heading, paragraph }) => {
       className="card"
     >
       <div className="content">
-        <FontAwesomeIcon icon={solid('coffee')} />
         <h3 className="header">{heading}</h3>
         <p className="text">{paragraph}</p>
       </div>
