@@ -13,26 +13,24 @@ const Header = () => {
               </span>
             </h1>
           </Fade>
-          <Fade>
-            <div className="heading-wrapper">
-              <p>
-                I love creating things,
-              </p>
-              <p>
-                improving processes,
-              </p>
-              <p>
-                and making an impact
-              </p>
-            </div>
-          </Fade>
-            <a
-              href="mailto:hayleypelham@ownmail.net"
-              className="primary-btn"
-              aria-label="Open a new draft addressed to me in your default email client"
-            >
-              CONNECT WITH ME
-            </a>
+          <div className="heading-wrapper">
+            <p>
+              I love creating things,
+            </p>
+            <p>
+              improving processes,
+            </p>
+            <p>
+              and making an impact
+            </p>
+          </div>
+          <a
+            href="mailto:hayleypelham@ownmail.net"
+            className="primary-btn"
+            aria-label="Open a new draft addressed to me in your default email client"
+          >
+            CONNECT WITH ME
+          </a>
         </div>
       </div>
     </div>

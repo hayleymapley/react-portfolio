@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="footer-container">
           <Fade>
             <h2>Contact</h2>
-            <p>Let's make cool things together!</p>
           </Fade>
+          <p>Let's make cool things together!</p>
           <a
             href="mailto:hayleypelham@ownmail.net"
             className="primary-btn"
