@@ -7,6 +7,8 @@ const skills = [
     title: "Communication and collaboration",
     para:
       "Open and honest communication is key for effective collaboration. When working with the right people, collaboration is one of the most rewarding aspects of any job. He tangata!",
+    icon:
+      "faCoffee"
   },
   {
     title: "Full-stack development",

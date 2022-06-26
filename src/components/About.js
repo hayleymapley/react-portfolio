@@ -24,9 +24,9 @@ const About = () =>{
             <p>
               I'm super passionate about personal and professional <strong>growth</strong>,
               creating <strong>beautiful websites</strong>, and making processes more
-              efficient with <strong>automation</strong> &mdash;. My values are important
-              to me, and my dream is to be able to combine each of these pursuits everyday in
-              work that aligns with those values.
+              efficient with <strong>automation</strong>. My values are important
+              to me &mdash; my dream is to be able to combine each of these pursuits everyday in
+              work that aligns with those <strong>values</strong>.
             </p>
           </div>
           <div className="image-wrapper">

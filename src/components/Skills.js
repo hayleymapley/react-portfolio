@@ -14,11 +14,11 @@ const Skills = () => {
           </Fade>
           <div className="grid">
             {data.skills.map((skill, index) => (
-
               <Card
                 key={index}
                 heading={skill.title}
                 paragraph={skill.para}
+                icon={skill.icon}
               ></Card>
             ))}
           </div>
