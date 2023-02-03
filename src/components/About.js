@@ -12,10 +12,9 @@ const About = () =>{
               <h2>About</h2>
             </Fade>
             <p>
-              Currently, I work as a <strong>full-stack developer</strong> and{" "}
-              <strong>infrastructure and tools lead</strong> for an{" "}
-              <a href="https://www.catalyst.net.nz/">open-source software
-              solutions company</a>.
+              Currently, I work as a <strong>front-end developer</strong> at a <a href="https://hairylemon.co.nz">digital agency</a>. 
+              Before that, I was a full-stack developer and <strong>infrastructure and tools lead </strong>
+              for an <a href="https://www.catalyst.net.nz/">open-source software solutions company</a>.
             </p>
             <p>
               I love <strong>collaborating with cool people</strong> and making{" "}
